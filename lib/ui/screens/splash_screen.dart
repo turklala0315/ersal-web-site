@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:ersal_web_site/core/constatnt/string/string.dart';
 import 'package:ersal_web_site/core/constatnt/text_style/text_style.dart';
-import 'package:ersal_web_site/ui/screens/carrousel/carousel.dart';
+import 'package:ersal_web_site/ui/screens/onboarding_screen/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -13,17 +13,17 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   @override
-  // void initState() {
-  //   super.initState();
+  void initState() {
+    super.initState();
 
-  //   Timer(const Duration(seconds: 3), () {
-  //     Navigator.pushReplacement(
-  //         context,
-  //         MaterialPageRoute(
-  //           builder: (context) => const Carousel(),
-  //         ));
-  //   });
-  // }
+    Timer(const Duration(seconds: 3), () {
+      Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (context) => OnboardingScreen(),
+          ));
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
