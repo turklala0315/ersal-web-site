@@ -1,5 +1,4 @@
 import 'package:ersal_web_site/core/providers/onboarding_screen/onboarding_screen.dart';
-import 'package:ersal_web_site/ui/screens/onboarding_screen/onboarding_screen.dart';
 import 'package:ersal_web_site/ui/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
