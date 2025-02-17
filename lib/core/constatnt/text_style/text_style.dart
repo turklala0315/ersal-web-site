@@ -26,8 +26,10 @@ const style12 = TextStyle(fontSize: 12, color: Colors.black);
 ///**********************************    Bold             ********************************************************************** */
 
 const style24B =
-    TextStyle(fontSize: 24, color: Colors.black, fontWeight: FontWeight.bold);
+    TextStyle(fontSize: 34, color: Colors.black, fontWeight: FontWeight.bold);
 const style16B =
     TextStyle(fontSize: 16, color: Colors.black, fontWeight: FontWeight.bold);
 const style14B =
     TextStyle(fontSize: 14, color: Colors.white, fontWeight: FontWeight.bold);
+const style14Brown = TextStyle(
+    fontSize: 12, color: Color(0xff96979B), fontWeight: FontWeight.bold);

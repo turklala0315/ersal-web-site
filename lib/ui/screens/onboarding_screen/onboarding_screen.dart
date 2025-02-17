@@ -1,13 +1,11 @@
 import 'dart:core';
-import 'dart:ui_web';
-
 import 'package:ersal_web_site/core/constatnt/color/colors.dart';
 import 'package:ersal_web_site/core/constatnt/string/string.dart';
 import 'package:ersal_web_site/core/constatnt/text_style/text_style.dart';
 import 'package:ersal_web_site/core/providers/onboarding_screen/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-// import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
@@ -255,9 +253,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             ),
           ),
           // SmoothPageIndicator(
-
-          //     controller: PageController(initialPage: 0),
-          //     count: onboardingData.length)
+          //     controller: _pageController, count: onboardingData.length)
         ],
       ),
     );
