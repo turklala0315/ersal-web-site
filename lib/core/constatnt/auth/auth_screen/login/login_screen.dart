@@ -2,6 +2,7 @@ import 'package:ersal_web_site/core/constatnt/auth/auth_screen/login/sign_up.dar
 import 'package:ersal_web_site/core/constatnt/color/colors.dart';
 import 'package:ersal_web_site/core/constatnt/string/string.dart';
 import 'package:ersal_web_site/core/constatnt/text_style/text_style.dart';
+import 'package:ersal_web_site/ui/screens/home_page/home_page.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -104,7 +105,12 @@ class _LoginScreenState extends State<LoginScreen> {
                             style: TextStyle(color: Color(0xff96979B)),
                           ),
                           TextButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => SignUp()));
+                            },
                             child: Text(
                               'Sign up here',
                               style: style14Brown,
@@ -124,7 +130,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => SignUp()));
+                                      builder: (context) => HomePage()));
                             },
                             child: Text(
                               'Done',
