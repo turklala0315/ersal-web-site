@@ -50,7 +50,7 @@ class _SignUpState extends State<SignUp> {
                     hintStyle: TextStyle(color: Color(0xff96979B)),
                     prefix: Icon(
                       Icons.person,
-                      color: Color(0xfff96979B),
+                      color: Color(0xff96979B),
                     ),
                     border: InputBorder.none,
                     fillColor: Color(0xffFFFFFF),
@@ -70,7 +70,7 @@ class _SignUpState extends State<SignUp> {
                     hintStyle: TextStyle(color: Color(0xff96979B)),
                     prefix: Icon(
                       Icons.call,
-                      color: Color(0xfff96979B),
+                      color: Color(0xff96979B),
                     ),
                     border: InputBorder.none,
                     fillColor: Color(0xffFFFFFF),

@@ -1,6 +1,6 @@
-import 'package:ersal_web_site/core/constatnt/auth/auth_screen/login/login_screen.dart';
-import 'package:ersal_web_site/core/constatnt/auth/auth_screen/login/sign_up.dart';
 import 'package:ersal_web_site/core/providers/onboarding_screen/onboarding_screen.dart';
+import 'package:ersal_web_site/ui/screens/home_page/home_page.dart';
+import 'package:ersal_web_site/ui/testing.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -22,10 +22,10 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
+          colorScheme: ColorScheme.fromSeed(seedColor: Color(0xffF2F1F5)),
           useMaterial3: true,
         ),
-        home: LoginScreen(),
+        home: HomePage(),
       ),
     );
   }

@@ -33,3 +33,5 @@ const style14B =
     TextStyle(fontSize: 14, color: Colors.white, fontWeight: FontWeight.bold);
 const style14Brown = TextStyle(
     fontSize: 12, color: Color(0xff96979B), fontWeight: FontWeight.bold);
+const style12b =
+    TextStyle(fontSize: 12, color: Colors.black, fontWeight: FontWeight.bold);

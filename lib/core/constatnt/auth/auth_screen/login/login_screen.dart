@@ -59,7 +59,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             hintStyle: TextStyle(color: Color(0xff96979B)),
                             prefix: Icon(
                               Icons.call,
-                              color: Color(0xfff96979B),
+                              color: Color(0xff96979B),
                             ),
                             border: InputBorder.none,
                             fillColor: Color(0xffFFFFFF),
@@ -81,10 +81,10 @@ class _LoginScreenState extends State<LoginScreen> {
                             contentPadding: EdgeInsets.only(left: 20),
                             prefix: Icon(
                               Icons.lock,
-                              color: Color(0xfff96979B),
+                              color: Color(0xff96979B),
                             ),
                             hintText: 'Code',
-                            hintStyle: TextStyle(color: Color(0xfff96979B)),
+                            hintStyle: TextStyle(color: Color(0xff96979B)),
                             border: InputBorder.none,
                             fillColor: Color(0xffFFFFFF),
                             filled: true,

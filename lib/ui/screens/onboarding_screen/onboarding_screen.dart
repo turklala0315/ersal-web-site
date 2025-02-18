@@ -5,7 +5,6 @@ import 'package:ersal_web_site/core/constatnt/text_style/text_style.dart';
 import 'package:ersal_web_site/core/providers/onboarding_screen/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
