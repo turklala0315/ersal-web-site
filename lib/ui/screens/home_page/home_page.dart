@@ -61,16 +61,14 @@ class _HomePageState extends State<HomePage> {
                     borderRadius: BorderRadius.circular(16)),
                 child: Padding(
                   padding:
-                      const EdgeInsets.symmetric(horizontal: 15, vertical: 30),
-                  child: Column(
-                    // mainAxisAlignment: MainAxisAlignment.,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Image.asset(
-                        '$staticAsset/Line1.png',
-                        scale: 3,
-                      ),
-                    ],
+                      const EdgeInsets.symmetric(horizontal: 10, vertical: 50),
+                  child: ListTile(
+                    leading: Image.asset(
+                      '$staticAsset/Line1.png',
+                      height: 100,
+                      scale: 3,
+                      // width: 100,
+                    ),
                   ),
                 ),
               ),
